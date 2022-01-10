@@ -14,10 +14,11 @@ homepage = "https://github.com/broadinstitute/python-clearpass"
 keywords = ["aruba", "clearpass"]
 
 [tool.poetry.dependencies]
-python = "^3.6"  # Compatible python versions must be declared here
+python = "^3.7"  # Compatible python versions must be declared here
 
 configparser = ">=3.5.0"
 requests = "*"
+responses = "^0.17.0"
 toml = "^0.9"
 
 [tool.poetry.dev-dependencies]

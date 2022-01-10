@@ -52,4 +52,4 @@ else
     fi
 fi
 
-$SUDO $DOCKER run $TTY --rm -v "$SCRIPT_DIR":/usr/src "$DOCKER_IMAGE" "$@"
+$SUDO $DOCKER run $TTY --rm -v "$SCRIPT_DIR":/working "$DOCKER_IMAGE" "$@"

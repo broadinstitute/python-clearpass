@@ -21,6 +21,11 @@ repos:
       - id: fix-encoding-pragma
       - id: mixed-line-ending
       - id: name-tests-test
+        args:
+          - --django
+      - id: no-commit-to-branch
+        args:
+          - -b main
       - id: trailing-whitespace
   - repo: https://github.com/broadinstitute/mirrors-pylama
     rev: v1.0.1

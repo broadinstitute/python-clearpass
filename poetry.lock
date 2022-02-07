@@ -511,19 +511,18 @@ requests = ">=2.0.1,<3.0.0"
 
 [[package]]
 name = "responses"
-version = "0.17.0"
+version = "0.18.0"
 description = "A utility library for mocking out the `requests` Python library."
 category = "main"
 optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+python-versions = ">=3.7"
 
 [package.dependencies]
-requests = ">=2.0"
-six = "*"
+requests = ">=2.0,<3.0"
 urllib3 = ">=1.25.10"
 
 [package.extras]
-tests = ["coverage (>=3.7.1,<6.0.0)", "pytest-cov", "pytest-localserver", "flake8", "types-mock", "types-requests", "types-six", "pytest (>=4.6,<5.0)", "pytest (>=4.6)", "mypy"]
+tests = ["pytest (>=4.6)", "coverage (>=6.0.0)", "pytest-cov", "pytest-localserver", "flake8", "types-mock", "types-requests", "mypy"]
 
 [[package]]
 name = "rfc3986"
@@ -552,7 +551,7 @@ jeepney = ">=0.6"
 name = "six"
 version = "1.16.0"
 description = "Python 2 and 3 compatibility utilities"
-category = "main"
+category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 
@@ -727,7 +726,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "c9179b403c4284549cb821d547981ffb5a2bde766492c62965dfdbafd427700d"
+content-hash = "413c27cf4f61a302b7495f252299d144d41444146d25f6b2a1b977e5203ef7db"
 
 [metadata.files]
 argparse = [
@@ -1141,8 +1140,8 @@ requests-toolbelt = [
     {file = "requests_toolbelt-0.9.1-py2.py3-none-any.whl", hash = "sha256:380606e1d10dc85c3bd47bf5a6095f815ec007be7a8b69c878507068df059e6f"},
 ]
 responses = [
-    {file = "responses-0.17.0-py2.py3-none-any.whl", hash = "sha256:e4fc472fb7374fb8f84fcefa51c515ca4351f198852b4eb7fc88223780b472ea"},
-    {file = "responses-0.17.0.tar.gz", hash = "sha256:ec675e080d06bf8d1fb5e5a68a1e5cd0df46b09c78230315f650af5e4036bec7"},
+    {file = "responses-0.18.0-py3-none-any.whl", hash = "sha256:15c63ad16de13ee8e7182d99c9334f64fd81f1ee79f90748d527c28f7ca9dd51"},
+    {file = "responses-0.18.0.tar.gz", hash = "sha256:380cad4c1c1dc942e5e8a8eaae0b4d4edf708f4f010db8b7bcfafad1fcd254ff"},
 ]
 rfc3986 = [
     {file = "rfc3986-2.0.0-py2.py3-none-any.whl", hash = "sha256:50b1502b60e289cb37883f3dfd34532b8873c7de9f49bb546641ce9cbd256ebd"},

@@ -18,7 +18,7 @@ python = "^3.7"  # Compatible python versions must be declared here
 
 configparser = ">=3.5.0"
 requests = "*"
-responses = "^0.17.0"
+responses = "^0.19.0"
 toml = "^0.10"
 
 [tool.poetry.dev-dependencies]

@@ -11,7 +11,7 @@ from . import __version__
 LOGGER = logging.getLogger(__name__)
 
 
-class Client(object):
+class Client:  # pylint: disable=too-many-instance-attributes
     """Serve as a Base class for calls to the ClearPass APIs."""
 
     # pylint:disable=too-many-arguments

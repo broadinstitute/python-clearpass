@@ -4,7 +4,6 @@ Python library for interfacing with the Aruba ClearPass REST API
 
 [![image](https://img.shields.io/pypi/pyversions/clearpass.svg)](https://pypi.org/project/clearpass/)
 ![checks](https://github.com/broadinstitute/python-clearpass/workflows/checks/badge.svg?branch=main)
-[![codecov](https://codecov.io/gh/broadinstitute/python-clearpass/branch/main/graph/badge.svg)](https://codecov.io/gh/broadinstitute/python-clearpass)
 
 ## Basics
 

@@ -97,9 +97,3 @@ jobs:
         run: |
           poetry build
           pip install dist/*.tar.gz
-
-      - name: 'Upload code coverage to Codecov'
-        uses: 'codecov/codecov-action@v3.1.0'
-        with:
-          file: './coverage.xml'
-          flags: 'unittests'
